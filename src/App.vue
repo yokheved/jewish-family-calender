@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <Calender jYear="5785"/>
-  </div>
+  <Main/>
 </template>
 
 <script>
-import Calender from './components/Calender.vue'
+import Main from './components/Main.vue'
 export default {
   components: {
-    Calender
+    Main
   }
 }
 </script>

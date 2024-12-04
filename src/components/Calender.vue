@@ -1,7 +1,5 @@
 <template>
   <div class="Calender">
-    <p>Today's Hebrew Date: {{ hebrewDate }}</p>
-    <h1>Yearly Calendar</h1>
     <table>
       <thead>
         <tr>
@@ -82,9 +80,11 @@ export default {
 
 <style scoped>
 .calendar {
+  display: block;
   margin: 20px;
   font-family: Arial, sans-serif;
   text-align: center;
+  overflow-x:scroll;
 }
 
 table {

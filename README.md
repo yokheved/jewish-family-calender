@@ -1,5 +1,8 @@
-# Vue 3 + Vite
+# Jewish family Tahara calender
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This website is meant to help Jewish married couples maintain their halachic life. 
+This website will help calculate special dates and halachic times. 
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This project is built as a practice on frontend vue, full-stack, and project management. 
+all rights reserved @yokheved-rose
+

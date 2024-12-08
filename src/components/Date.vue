@@ -19,12 +19,12 @@ export default {
             // Example logic to add events (you can customize this)
             let event = "";
             const jD = new jDate(day.jYear, day.jMonth, day.jDay);
-            if (jD.isErevYomTov()) {
-                event += "ErevYomTov";
+            if (jD.getDayOfWeek() === 6) {
+                event += "Shabbos";
             } else if (jD.isYomTov()) {
                 event += "YomTov";
-            } else if (jD.getDayOfWeek() === 6) {
-                event += "Shabbos";
+            } else if (jD.isErevYomTov()) {
+                event += "ErevYomTov";
             } else if (jD.isYomTovOrCholHamoed()) {
                 event += "CholHamoed";
             } else if (day.jDay ==30 || day.jDay == 1) {
